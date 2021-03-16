@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA48428260110E4003B2761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA48427260110E4003B2761 /* AppDelegate.swift */; };
+		FCA4842A260110E4003B2761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA48429260110E4003B2761 /* SceneDelegate.swift */; };
+		FCA4842C260110E4003B2761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4842B260110E4003B2761 /* ViewController.swift */; };
+		FCA4842F260110E4003B2761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA4842D260110E4003B2761 /* Main.storyboard */; };
+		FCA48431260110E5003B2761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA48430260110E5003B2761 /* Assets.xcassets */; };
+		FCA48434260110E5003B2761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA48432260110E5003B2761 /* LaunchScreen.storyboard */; };
+		FCA4843D26011146003B2761 /* MapMarkersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4843C26011146003B2761 /* MapMarkersViewController.swift */; };
+		FCA4844026011173003B2761 /* MarkerStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4843F26011173003B2761 /* MarkerStruct.swift */; };
+		FCA4844326011189003B2761 /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4844226011189003B2761 /* MarkerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCA48424260110E4003B2761 /* EmulateMapMarkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmulateMapMarkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA48427260110E4003B2761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA48429260110E4003B2761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCA4842B260110E4003B2761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCA4842E260110E4003B2761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA48430260110E5003B2761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA48433260110E5003B2761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA48435260110E5003B2761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA4843C26011146003B2761 /* MapMarkersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkersViewController.swift; sourceTree = "<group>"; };
+		FCA4843F26011173003B2761 /* MarkerStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerStruct.swift; sourceTree = "<group>"; };
+		FCA4844226011189003B2761 /* MarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA48421260110E4003B2761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA4841B260110E4003B2761 = {
+			isa = PBXGroup;
+			children = (
+				FCA48426260110E4003B2761 /* EmulateMapMarkers */,
+				FCA48425260110E4003B2761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA48425260110E4003B2761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA48424260110E4003B2761 /* EmulateMapMarkers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA48426260110E4003B2761 /* EmulateMapMarkers */ = {
+			isa = PBXGroup;
+			children = (
+				FCA48427260110E4003B2761 /* AppDelegate.swift */,
+				FCA48429260110E4003B2761 /* SceneDelegate.swift */,
+				FCA4842B260110E4003B2761 /* ViewController.swift */,
+				FCA4843C26011146003B2761 /* MapMarkersViewController.swift */,
+				FCA4843F26011173003B2761 /* MarkerStruct.swift */,
+				FCA4844226011189003B2761 /* MarkerView.swift */,
+				FCA4842D260110E4003B2761 /* Main.storyboard */,
+				FCA48430260110E5003B2761 /* Assets.xcassets */,
+				FCA48432260110E5003B2761 /* LaunchScreen.storyboard */,
+				FCA48435260110E5003B2761 /* Info.plist */,
+			);
+			path = EmulateMapMarkers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA48423260110E4003B2761 /* EmulateMapMarkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA48438260110E5003B2761 /* Build configuration list for PBXNativeTarget "EmulateMapMarkers" */;
+			buildPhases = (
+				FCA48420260110E4003B2761 /* Sources */,
+				FCA48421260110E4003B2761 /* Frameworks */,
+				FCA48422260110E4003B2761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmulateMapMarkers;
+			productName = EmulateMapMarkers;
+			productReference = FCA48424260110E4003B2761 /* EmulateMapMarkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA4841C260110E4003B2761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FCA48423260110E4003B2761 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = FCA4841F260110E4003B2761 /* Build configuration list for PBXProject "EmulateMapMarkers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA4841B260110E4003B2761;
+			productRefGroup = FCA48425260110E4003B2761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA48423260110E4003B2761 /* EmulateMapMarkers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA48422260110E4003B2761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA48434260110E5003B2761 /* LaunchScreen.storyboard in Resources */,
+				FCA48431260110E5003B2761 /* Assets.xcassets in Resources */,
+				FCA4842F260110E4003B2761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA48420260110E4003B2761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA4842C260110E4003B2761 /* ViewController.swift in Sources */,
+				FCA48428260110E4003B2761 /* AppDelegate.swift in Sources */,
+				FCA4844026011173003B2761 /* MarkerStruct.swift in Sources */,
+				FCA4842A260110E4003B2761 /* SceneDelegate.swift in Sources */,
+				FCA4844326011189003B2761 /* MarkerView.swift in Sources */,
+				FCA4843D26011146003B2761 /* MapMarkersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA4842D260110E4003B2761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA4842E260110E4003B2761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA48432260110E5003B2761 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA48433260110E5003B2761 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA48436260110E5003B2761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA48437260110E5003B2761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA48439260110E5003B2761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmulateMapMarkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonMag.EmulateMapMarkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA4843A260110E5003B2761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmulateMapMarkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonMag.EmulateMapMarkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA4841F260110E4003B2761 /* Build configuration list for PBXProject "EmulateMapMarkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA48436260110E5003B2761 /* Debug */,
+				FCA48437260110E5003B2761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA48438260110E5003B2761 /* Build configuration list for PBXNativeTarget "EmulateMapMarkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA48439260110E5003B2761 /* Debug */,
+				FCA4843A260110E5003B2761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA4841C260110E4003B2761 /* Project object */;
+}
